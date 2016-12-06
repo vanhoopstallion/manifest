@@ -21,6 +21,7 @@
   </project>
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="android-7.1" />
   <project path="manifest" name="manifest" remote="pure" revision="android-7.1" />
+  <project path="external/busybox" name="android_external_busybox" remote="pure" revision="android-7.1" />
   <project path="vendor/pure" name="android_vendor_pure" remote="pure" revision="android-7.1" />
 
   <!-- Proprietary Vendors -->
