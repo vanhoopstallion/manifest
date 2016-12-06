@@ -23,6 +23,7 @@
   <project path="manifest" name="manifest" remote="pure" revision="android-7.1" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="android-7.1" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pure" revision="android-7.1" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pure" revision="android-7.1" />
   <project path="vendor/pure" name="android_vendor_pure" remote="pure" revision="android-7.1" />
 
   <!-- Proprietary Vendors -->
@@ -338,7 +339,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
