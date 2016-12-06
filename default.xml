@@ -16,15 +16,15 @@
            sync-j="4" />
 
   <!-- Pure Repo's -->
+  <project path="build" name="android_build" groups="pdk,tradefed" remote="pure" revision="android-7.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="manifest" name="manifest" remote="pure" revision="android-7.1" />
   <project path="vendor/pure" name="android_vendor_pure" remote="pure" revision="android-7.1" />
 
   <!-- Proprietary Vendors -->
 
   <!-- AOSP Repo's -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
