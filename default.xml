@@ -46,6 +46,9 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="pure" revision="android-7.1" />
   <project path="vendor/pure" name="android_vendor_pure" remote="pure" revision="android-7.1" />
 
+  <!-- Kernel Source -->
+  <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="android-7.1" />
+
   <!-- Proprietary Vendors -->
 
   <!-- AOSP Repo's -->
@@ -72,7 +75,6 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" />
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" clone-depth="1" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" clone-depth="1" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
