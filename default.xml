@@ -55,6 +55,7 @@
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="pure" revision="android-7.1" />
 
   <!-- Proprietary Vendors -->
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="android-7.1" />
 
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
