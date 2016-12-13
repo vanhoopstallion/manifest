@@ -10,7 +10,7 @@
            fetch="https://github.com/PureNexusProject/" /> 
   <remote name="gitlab"
            fetch="ssh://git@gitlab.com/PureNexus/" /> 
-  <default revision="refs/tags/android-7.1.1_r4"
+  <default revision="refs/tags/android-7.1.1_r6"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
