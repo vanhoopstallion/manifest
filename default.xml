@@ -52,6 +52,7 @@
   <project path="vendor/pure" name="android_vendor_pure" remote="pure" revision="android-7.1" />
 
   <!-- Kernel Source -->
+  <project path="kernel/google/marlin" name="android_kernel_google_marlin" groups="device,marlin" remote="pure" revision="android-7.1" />
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="android-7.1" />
   <project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead" remote="pure" revision="android-7.1" />
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="pure" revision="android-7.1" />
@@ -82,7 +83,6 @@
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
-  <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
